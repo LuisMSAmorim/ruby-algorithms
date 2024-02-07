@@ -19,5 +19,5 @@ end
 puts "Enter your array values separeted by commas (43, 2, 60, 10): "
 unsorted_array = gets.chomp.split(', ').map(&:to_i)
 
-puts "Unsorted Array: #{unsorted_array.join(', ')}"
+puts "Unsorted Array: [#{unsorted_array.join(', ')}]"
 puts "Sorted Array: #{bubble_sort(unsorted_array.dup)}"
